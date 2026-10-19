@@ -1,0 +1,677 @@
+=== Agent #2 log started 2026-10-13-13-19-08.640 ===
+13:19:08 - Application Started | PAPER MODE | BTC 15-minute AI direction strategy | provider: META | model: Muse Wonder [xHigh] | Obey model: YES | AI request at 15m remaining | order size: 300 | Agent PnL limits: +1500.0000/-1000.0000
+13:19:08 - PAPER MODE | current-ask simulated fills | no live orders
+13:19:08 - BTC New PAPER session (KXBTC15M-26OCT131530-30, shard 2)
+13:19:08 - BTC Requesting AI analytics with 10.87 minutes remaining
+13:19:08 - BTC Requesting META analysis and credit charge
+13:19:19 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2409 | tokens in/out/reasoning=6798/1075/899
+13:19:19 - BTC AI reason | Current 83098.89 is 0.0047% below the 83102.78 open with 72% remaining. 1M 10-bar slope is -0.010%/bar with R2 0.82 and MACD histogram -9.3 after rejection from 83168; 15M regression20 is -0.035%/bar with R2 0.78, MACD -15.6, and cross-timeframe score is bearish at -2.25.
+13:19:19 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131530-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+13:19:20 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.51 — placing PAPER order
+13:19:20 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+13:19:20 - BTC Holding PAPER DOWN to market resolution
+13:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+13:30:01 - BTC Waiting for market data
+13:30:03 - BTC Session ended, waiting for the next market
+13:30:11 - BTC PAPER DOWN closed | entry 0.51 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -153.0000 | held_to_resolution
+13:30:11 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131530-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT131530-30-DOWN-217390328
+13:30:19 - BTC New PAPER session (KXBTC15M-26OCT131545-45, shard 2)
+13:30:20 - BTC Requesting AI analytics with 14.68 minutes remaining
+13:30:20 - BTC Requesting META analysis and credit charge
+13:30:33 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2399 | tokens in/out/reasoning=6800/1189/1048
+13:30:33 - BTC AI reason | Only 2% elapsed and price is just 0.0015% below open versus 15M ATR of 0.18%, while recent 15M bars show consecutive green closes rising from 82994 to 83163; 1M EMA ordering is bullish with RSI 59.09 and positive 10- and 20-bar drift, favoring continuation above the open.
+13:30:33 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131545-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+13:30:34 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.54 — placing PAPER order
+13:30:34 - BTC PAPER position confirmed | fill 0.54 | size 300 | simulated entry fees 0.0000 (current ask)
+13:30:34 - BTC Holding PAPER UP to market resolution
+13:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+13:45:01 - BTC Waiting for market data
+13:45:03 - BTC Session ended, waiting for the next market
+13:45:12 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131545-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT131545-45-UP-218064015
+13:45:13 - BTC PAPER UP closed | entry 0.54 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -162.0000 | held_to_resolution
+13:45:30 - BTC New PAPER session (KXBTC15M-26OCT131600-00, shard 2)
+13:45:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+13:45:30 - BTC Requesting META analysis and credit charge
+13:45:37 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2389 | tokens in/out/reasoning=6767/727/583
+13:45:37 - BTC AI reason | Current 83091.427 is below target open 83107.7145 early in candle, with 1M trend -5, RSI 33.99, MACD histogram -9.80, negative 1-20 bar returns, regression slopes negative with R2 0.74/0.58, and a prior-20-low break. 15M and 1H are also bearish and cross-timeframe alignment is bearish_majority with weighted score -3.25.
+13:45:37 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131600-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+13:45:38 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.58 — placing PAPER order
+13:45:38 - BTC PAPER position confirmed | fill 0.58 | size 300 | simulated entry fees 0.0000 (current ask)
+13:45:38 - BTC Holding PAPER DOWN to market resolution
+14:00:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+14:00:01 - BTC Session ended, waiting for the next market
+14:00:04 - BTC Waiting for market data
+14:00:05 - BTC PAPER DOWN closed | entry 0.58 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -174.0000 | held_to_resolution
+14:00:06 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131600-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT131600-00-DOWN-218967593
+14:00:28 - BTC New PAPER session (KXBTC15M-26OCT131615-15, shard 2)
+14:00:28 - BTC Requesting AI analytics with 14.53 minutes remaining
+14:00:28 - BTC Requesting META analysis and credit charge
+14:00:45 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2379 | tokens in/out/reasoning=6807/960/800
+14:00:45 - BTC AI reason | Price is only 0.0031% above the 83211.38 open with 872s left, but 1M momentum is strongly bullish: regression-10 slope positive with R2 0.94, RSI 72.4, positive MACD histogram, EMA8>EMA21, 0.9 up-ratio and a prior-20-high breakout; 15M regression-10 and MACD also positive, supporting close above open.
+14:00:45 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131615-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+14:00:46 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.55 — placing PAPER order
+14:00:46 - BTC PAPER position confirmed | fill 0.55 | size 300 | simulated entry fees 0.0000 (current ask)
+14:00:46 - BTC Holding PAPER UP to market resolution
+14:15:02 - BTC PAPER UP held to resolution | PnL settlement pending
+14:15:03 - BTC Session ended, waiting for the next market
+14:15:04 - BTC Waiting for market data
+14:15:09 - BTC Waiting for prior-session PnL settlement before starting the next session
+14:15:11 - BTC PAPER UP closed | entry 0.55 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -165.0000 | held_to_resolution
+14:15:11 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131615-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT131615-15-UP-219876218
+14:15:11 - BTC New PAPER session (KXBTC15M-26OCT131630-30, shard 2)
+14:15:11 - BTC Requesting AI analytics with 14.82 minutes remaining
+14:15:11 - BTC Requesting META analysis and credit charge
+14:15:23 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2369 | tokens in/out/reasoning=6773/1079/923
+14:15:23 - BTC AI reason | Current 83196.57 is barely below 83205.36 open with 890s left, but immediate pressure is down: 1M 3/5-bar returns negative, MACD histogram -2.65, close below EMA8, and spot 15-bar returns negative with strongly negative 20-bar regressions. This outweighs mixed 15M momentum and neutral RSI near 50.
+14:15:23 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131630-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+14:15:23 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.68 — placing PAPER order
+14:15:23 - BTC PAPER position confirmed | fill 0.68 | size 300 | simulated entry fees 0.0000 (current ask)
+14:15:23 - BTC Holding PAPER DOWN to market resolution
+14:30:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+14:30:01 - BTC Session ended, waiting for the next market
+14:30:02 - BTC Waiting for market data
+14:30:11 - BTC PAPER DOWN closed | entry 0.68 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +96.0000 | held_to_resolution
+14:30:12 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131630-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT131630-30-DOWN-220753453
+14:30:13 - BTC New PAPER session (KXBTC15M-26OCT131645-45, shard 2)
+14:30:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+14:30:13 - BTC Requesting META analysis and credit charge
+14:30:20 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2359 | tokens in/out/reasoning=6783/906/758
+14:30:20 - BTC AI reason | Current 83128.20 is slightly below the 83130.14 open with 888s remaining. 1M momentum is bearish: returns negative over 1-20 bars, RSI 39.7, MACD histogram -4.13, 20-bar regression slope negative with R2 0.74, and trend score -5. 15M and 1H EMA structure is bearish and cross-timeframe alignment is bearish_majority with weighted score -2.5, favoring a close at or below open.
+14:30:20 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131645-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+14:30:21 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.66 — placing PAPER order
+14:30:21 - BTC PAPER position confirmed | fill 0.66 | size 300 | simulated entry fees 0.0000 (current ask)
+14:30:21 - BTC Holding PAPER DOWN to market resolution
+14:45:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+14:45:00 - BTC Waiting for market data
+14:45:01 - BTC Session ended, waiting for the next market
+14:45:07 - BTC PAPER DOWN closed | entry 0.66 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -198.0000 | held_to_resolution
+14:45:11 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131645-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT131645-45-DOWN-221650859
+14:45:13 - BTC New PAPER session (KXBTC15M-26OCT131700-00, shard 2)
+14:45:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+14:45:13 - BTC Requesting META analysis and credit charge
+14:45:25 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2349 | tokens in/out/reasoning=6763/1165/985
+14:45:25 - BTC AI reason | Current is only 0.009% above open with 889s left, but 1M shows breakout above prior 20-bar high, EMA8>21>55, MACD histogram +16.5, regression10 slope +0.021%/bar (R2 0.79), RSI 70 and closes at highs; 15M MACD histogram +23.9, regression10 R2 0.78 and up-ratio 0.7, with bullish-majority cross-timeframe alignment, favoring continuation over reversal.
+14:45:25 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131700-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+14:45:26 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.65 — placing PAPER order
+14:45:26 - BTC PAPER position confirmed | fill 0.65 | size 300 | simulated entry fees 0.0000 (current ask)
+14:45:26 - BTC Holding PAPER UP to market resolution
+15:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+15:00:02 - BTC Session ended, waiting for the next market
+15:00:03 - BTC Waiting for market data
+15:00:14 - BTC PAPER UP closed | entry 0.65 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +105.0000 | held_to_resolution
+15:00:15 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131700-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT131700-00-UP-222556031
+15:00:24 - BTC New PAPER session (KXBTC15M-26OCT131715-15, shard 2)
+15:00:25 - BTC Requesting AI analytics with 14.60 minutes remaining
+15:00:25 - BTC Requesting META analysis and credit charge
+15:00:38 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2339 | tokens in/out/reasoning=6777/1107/981
+15:00:38 - BTC AI reason | Current 83345 is only -0.008% below the 83351 open with 2.8% elapsed and 875s left, negligible versus 15M ATR 0.16%. 1M regression20 slope is positive with R2 0.77, up-ratio 0.7, and EMA8 above EMA21; 15M trend score is 5 with RSI 55.6, positive MACD histogram, and bullish cross-timeframe alignment, favoring continuation above the open.
+15:00:38 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131715-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+15:00:39 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.48 — placing PAPER order
+15:00:39 - BTC PAPER position confirmed | fill 0.48 | size 300 | simulated entry fees 0.0000 (current ask)
+15:00:39 - BTC Holding PAPER UP to market resolution
+15:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+15:15:01 - BTC Waiting for market data
+15:15:03 - BTC Session ended, waiting for the next market
+15:15:11 - BTC PAPER UP closed | entry 0.48 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -144.0000 | held_to_resolution
+15:15:11 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131715-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT131715-15-UP-223468796
+15:15:19 - BTC New PAPER session (KXBTC15M-26OCT131730-30, shard 2)
+15:15:19 - BTC Requesting AI analytics with 14.68 minutes remaining
+15:15:19 - BTC Requesting META analysis and credit charge
+15:15:44 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2329 | tokens in/out/reasoning=6760/2229/2028
+15:15:44 - BTC AI reason | Current 83306.994 is below the 83309.932 open with 880s remaining. 1M momentum is bearish: returns negative over 1-20 bars, RSI 45.6, MACD histogram -9.0, up-ratio 0.2, price broke the prior 20-bar low and closed at its low; raw spot regression is also down with R-squared 0.975. Higher timeframes are only mixed, insufficient to offset immediate selling.
+15:15:44 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131730-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+15:15:45 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.51 — placing PAPER order
+15:15:45 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+15:15:45 - BTC Holding PAPER DOWN to market resolution
+15:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+15:30:02 - BTC Session ended, waiting for the next market
+15:30:03 - BTC Waiting for market data
+15:30:07 - BTC Waiting for prior-session PnL settlement before starting the next session
+15:30:12 - BTC PAPER DOWN closed | entry 0.51 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +147.0000 | held_to_resolution
+15:30:13 - BTC New PAPER session (KXBTC15M-26OCT131745-45, shard 2)
+15:30:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+15:30:13 - BTC Requesting META analysis and credit charge
+15:30:32 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2319 | tokens in/out/reasoning=6784/1778/1593
+15:30:32 - BTC AI reason | Current price is only 0.67 above the 15M open with 886s remaining, negligible versus 15M ATR 122.32. 1M momentum is bearish: 20-bar return -0.0806%, regression slope -0.005445%/bar with R-squared 0.743, RSI 42.42, MACD histogram -3.72, and EMA8 below EMA21. The prior two closed 15M bars were red, outweighing the small recent 3- to 5-bar bounce and mixed higher-timeframe signals.
+15:30:33 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131745-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+15:30:33 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.49 — placing PAPER order
+15:30:33 - BTC PAPER position confirmed | fill 0.49 | size 300 | simulated entry fees 0.0000 (current ask)
+15:30:33 - BTC Holding PAPER DOWN to market resolution
+15:30:34 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131730-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT131730-30-DOWN-224375015
+15:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+15:45:01 - BTC Waiting for market data
+15:45:02 - BTC Session ended, waiting for the next market
+15:45:36 - BTC PAPER DOWN closed | entry 0.49 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -147.0000 | held_to_resolution
+15:45:36 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131745-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT131745-45-DOWN-225263375
+15:45:38 - BTC New PAPER session (KXBTC15M-26OCT131800-00, shard 2)
+15:45:38 - BTC Requesting AI analytics with 14.37 minutes remaining
+15:45:38 - BTC Requesting META analysis and credit charge
+15:45:49 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2309 | tokens in/out/reasoning=6781/1207/1053
+15:45:49 - BTC AI reason | Current is only -0.012% below open with 863s remaining, versus 15M ATR 0.147%, while 1M regression slope is positive with R2 0.88, RSI 65.4, MACD histogram positive and EMAs bullish; 15M and 1H also show bullish EMA/MACD/regression and cross-timeframe alignment is bullish_majority.
+15:45:49 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131800-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+15:45:50 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.39 — placing PAPER order
+15:45:50 - BTC PAPER position confirmed | fill 0.39 | size 300 | simulated entry fees 0.0000 (current ask)
+15:45:50 - BTC Holding PAPER UP to market resolution
+16:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+16:00:02 - BTC Session ended, waiting for the next market
+16:00:03 - BTC Waiting for market data
+16:00:05 - BTC PAPER UP closed | entry 0.39 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +183.0000 | held_to_resolution
+16:00:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131800-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT131800-00-UP-226180046
+16:00:23 - BTC New PAPER session (KXBTC15M-26OCT131815-15, shard 2)
+16:00:23 - BTC Requesting AI analytics with 14.62 minutes remaining
+16:00:23 - BTC Requesting META analysis and credit charge
+16:00:33 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2299 | tokens in/out/reasoning=6773/1213/1061
+16:00:33 - BTC AI reason | Target is only -0.010% below open with 877s remaining, tiny versus 15M ATR 0.143%. 1M/15M/1H EMA ordering, MACD histograms, RSI 67/59/56 and positive regressions favor continuation; cross-timeframe alignment is bullish_majority with weighted score 4.5, outweighing resistance proximity and short spot pullback.
+16:00:33 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131815-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+16:00:34 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.19 — placing PAPER order
+16:00:34 - BTC PAPER position confirmed | fill 0.19 | size 300 | simulated entry fees 0.0000 (current ask)
+16:00:34 - BTC Holding PAPER UP to market resolution
+16:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+16:15:03 - BTC Session ended, waiting for the next market
+16:15:04 - BTC Waiting for market data
+16:15:13 - BTC PAPER UP closed | entry 0.19 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -57.0000 | held_to_resolution
+16:15:16 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131815-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT131815-15-UP-227064312
+16:15:25 - BTC New PAPER session (KXBTC15M-26OCT131830-30, shard 2)
+16:15:25 - BTC Requesting AI analytics with 14.58 minutes remaining
+16:15:25 - BTC Requesting META analysis and credit charge
+16:15:50 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2289 | tokens in/out/reasoning=6781/2850/2606
+16:15:50 - BTC AI reason | Current 83360.85 is just above the 83356.41 open with 875s left, so displacement is tiny, but 15M and 1H remain bullish with EMA8 above EMA21, positive MACD histograms, 15M regression20 slope +0.026% (R2 0.81), and RSI above 53. 1M 3/5/10-bar returns are positive and price is stabilizing above 83340 support despite negative 1M MACD, favoring a bullish-regime bounce over further downside.
+16:15:50 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131830-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+16:15:51 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.53 — placing PAPER order
+16:15:51 - BTC PAPER position confirmed | fill 0.53 | size 300 | simulated entry fees 0.0000 (current ask)
+16:15:51 - BTC Holding PAPER UP to market resolution
+16:30:01 - BTC PAPER UP held to resolution | PnL settlement pending
+16:30:02 - BTC Waiting for prior-session PnL settlement before starting the next session
+16:30:06 - BTC PAPER UP closed | entry 0.53 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +141.0000 | held_to_resolution
+16:30:06 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131830-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT131830-30-UP-227981390
+16:30:06 - BTC New PAPER session (KXBTC15M-26OCT131845-45, shard 2)
+16:30:06 - BTC Requesting AI analytics with 14.90 minutes remaining
+16:30:06 - BTC Requesting META analysis and credit charge
+16:30:15 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2279 | tokens in/out/reasoning=6779/1167/999
+16:30:15 - BTC AI reason | Current price is only fractionally above the open with 894s remaining, but 15M trend is strongly bullish (regression20 slope +0.0285%/bar, R2 0.877, EMA8>21>55, MACD histogram +28.2, RSI 55.3), 1H is bullish, and 1M MACD/RSI are positive with price at its bar high, favoring continuation above the open.
+16:30:15 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131845-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+16:30:16 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.62 — placing PAPER order
+16:30:16 - BTC PAPER position confirmed | fill 0.62 | size 300 | simulated entry fees 0.0000 (current ask)
+16:30:16 - BTC Holding PAPER UP to market resolution
+16:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+16:45:02 - BTC Session ended, waiting for the next market
+16:45:04 - BTC Waiting for market data
+16:45:13 - BTC PAPER UP closed | entry 0.62 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +114.0000 | held_to_resolution
+16:45:16 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131845-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT131845-45-UP-228846078
+16:45:35 - BTC New PAPER session (KXBTC15M-26OCT131900-00, shard 2)
+16:45:36 - BTC Requesting AI analytics with 14.42 minutes remaining
+16:45:36 - BTC Requesting META analysis and credit charge
+16:45:43 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2269 | tokens in/out/reasoning=6792/1067/904
+16:45:43 - BTC AI reason | Current 83455.29 is above target open 83446.81 (+0.010%) with range_position 1 and no wick rejection. 1M returns, regression slopes, EMA ordering, RSI 65.0 and positive MACD histogram are bullish and price broke the prior 20-bar high; 15M and 1H are also bullish with positive MACD, RSI above 50, and cross-timeframe alignment is bullish_majority.
+16:45:43 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131900-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+16:45:44 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.52 — placing PAPER order
+16:45:44 - BTC PAPER position confirmed | fill 0.52 | size 300 | simulated entry fees 0.0000 (current ask)
+16:45:44 - BTC Holding PAPER UP to market resolution
+17:00:01 - BTC PAPER UP held to resolution | PnL settlement pending
+17:00:03 - BTC Session ended, waiting for the next market
+17:00:04 - BTC Waiting for market data
+17:00:08 - BTC PAPER UP closed | entry 0.52 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +144.0000 | held_to_resolution
+17:00:08 - BTC New PAPER session (KXBTC15M-26OCT131915-15, shard 2)
+17:00:09 - BTC Requesting AI analytics with 14.87 minutes remaining
+17:00:09 - BTC Requesting META analysis and credit charge
+17:00:31 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2259 | tokens in/out/reasoning=6805/2821/2632
+17:00:31 - BTC AI reason | Price is marginally above the 83448.35 open, while 15M and 1H trends are bullish with aligned EMAs, RSI 58.2/55.5, positive MACD histograms, and a strong 15M 20-bar regression slope of +0.030% per bar with R-squared 0.91; this outweighs the mild 1M pullback.
+17:00:31 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131915-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+17:00:32 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.39 — placing PAPER order
+17:00:32 - BTC PAPER position confirmed | fill 0.39 | size 300 | simulated entry fees 0.0000 (current ask)
+17:00:32 - BTC Holding PAPER UP to market resolution
+17:00:32 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131900-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT131900-00-UP-229773765
+17:15:00 - BTC PAPER UP held to resolution | PnL settlement pending
+17:15:02 - BTC Session ended, waiting for the next market
+17:15:03 - BTC Waiting for market data
+17:15:07 - BTC PAPER UP closed | entry 0.39 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -117.0000 | held_to_resolution
+17:15:11 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131915-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT131915-15-UP-230661796
+17:15:24 - BTC New PAPER session (KXBTC15M-26OCT131930-30, shard 2)
+17:15:25 - BTC Requesting AI analytics with 14.60 minutes remaining
+17:15:25 - BTC Requesting META analysis and credit charge
+17:15:34 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2249 | tokens in/out/reasoning=6805/934/758
+17:15:34 - BTC AI reason | Current 83213.64 is just below the 83213.997 open with 875s remaining. 1M momentum is strongly bearish: trend score -5, RSI 29.06, MACD histogram -5.71, EMA8 below EMA21, and 20-bar regression slope -0.0198% with R-squared 0.868. The preceding 15M and live 1H bars were large red candles, and cross-timeframe alignment is bearish_majority.
+17:15:34 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131930-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+17:15:35 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.46 — placing PAPER order
+17:15:35 - BTC PAPER position confirmed | fill 0.46 | size 300 | simulated entry fees 0.0000 (current ask)
+17:15:35 - BTC Holding PAPER DOWN to market resolution
+17:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+17:30:02 - BTC Session ended, waiting for the next market
+17:30:04 - BTC Waiting for market data
+17:30:07 - BTC PAPER DOWN closed | entry 0.46 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +162.0000 | held_to_resolution
+17:30:08 - BTC New PAPER session (KXBTC15M-26OCT131945-45, shard 2)
+17:30:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+17:30:08 - BTC Requesting META analysis and credit charge
+17:30:15 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2239 | tokens in/out/reasoning=6781/756/614
+17:30:15 - BTC AI reason | Current price is only +0.0017% above the open with 892s remaining, far below 15M ATR of 117.6. 1M momentum is bearish: regression-10 slope -0.0129% with R2 0.85, RSI 28.5, negative MACD histogram, and EMA8 below EMA21/55; 15M and 1H trends are also bearish with negative MACD, supporting reversal below the open.
+17:30:15 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131945-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+17:30:16 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.47 — placing PAPER order
+17:30:16 - BTC PAPER position confirmed | fill 0.47 | size 300 | simulated entry fees 0.0000 (current ask)
+17:30:16 - BTC Holding PAPER DOWN to market resolution
+17:30:16 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131930-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT131930-30-DOWN-231565062
+17:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+17:45:01 - BTC Waiting for market data
+17:45:02 - BTC Session ended, waiting for the next market
+17:45:06 - BTC PAPER DOWN closed | entry 0.47 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -141.0000 | held_to_resolution
+17:45:06 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT131945-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT131945-45-DOWN-232446031
+17:45:30 - BTC New PAPER session (KXBTC15M-26OCT132000-00, shard 2)
+17:45:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+17:45:30 - BTC Requesting META analysis and credit charge
+17:46:10 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2224 | tokens in/out/reasoning=6796/4322/4092
+17:46:10 - BTC AI reason | Price is only 0.0009% below the open with 870 seconds remaining, while 1M regression slopes are positive with high R-squared, RSI is 52.8, MACD histogram is positive, up-ratio is 0.7, and recent 1M closes are near their highs, outweighing the bearish 15M background.
+17:46:10 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132000-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+17:46:11 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.45 — placing PAPER order
+17:46:11 - BTC PAPER position confirmed | fill 0.45 | size 300 | simulated entry fees 0.0000 (current ask)
+17:46:11 - BTC Holding PAPER UP to market resolution
+18:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+18:00:03 - BTC Session ended, waiting for the next market
+18:00:04 - BTC PAPER UP closed | entry 0.45 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -135.0000 | held_to_resolution
+18:00:04 - BTC Waiting for market data
+18:00:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132000-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT132000-00-UP-233401062
+18:00:08 - BTC New PAPER session (KXBTC15M-26OCT132015-15, shard 2)
+18:00:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+18:00:08 - BTC Requesting META analysis and credit charge
+18:00:29 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2219 | tokens in/out/reasoning=6804/1006/839
+18:00:29 - BTC AI reason | Only 2.3% elapsed and price is just +0.008% above open, negligible vs 15M ATR 0.137%. 1M regression20 slope is negative with R2 0.82, RSI 39.3 and MACD histogram negative; 15M trend score -5, MACD histogram -25.4, RSI 43.4, and cross-timeframe alignment is bearish, favoring reversal below open.
+18:00:29 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132015-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+18:00:30 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.37 — placing PAPER order
+18:00:30 - BTC PAPER position confirmed | fill 0.37 | size 300 | simulated entry fees 0.0000 (current ask)
+18:00:30 - BTC Holding PAPER DOWN to market resolution
+18:15:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+18:15:01 - BTC Waiting for market data
+18:15:03 - BTC Session ended, waiting for the next market
+18:15:09 - BTC PAPER DOWN closed | entry 0.37 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -111.0000 | held_to_resolution
+18:15:10 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132015-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT132015-15-DOWN-234260390
+18:15:30 - BTC New PAPER session (KXBTC15M-26OCT132030-30, shard 2)
+18:15:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+18:15:31 - BTC Requesting META analysis and credit charge
+18:15:43 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2209 | tokens in/out/reasoning=6810/1244/1097
+18:15:43 - BTC AI reason | Current 83326 is above the 83310 open, with 1M trend score 5, positive MACD histogram 19.97, EMA8 above EMA21, regression slopes positive with R-squared above 0.81, and +0.304% over 20 bars. The 1H regime is bullish and cross-timeframe alignment is bullish majority, outweighing the small early distance from open.
+18:15:43 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132030-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+18:15:43 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.73 — placing PAPER order
+18:15:43 - BTC PAPER position confirmed | fill 0.73 | size 300 | simulated entry fees 0.0000 (current ask)
+18:15:43 - BTC Holding PAPER UP to market resolution
+18:30:01 - BTC PAPER UP held to resolution | PnL settlement pending
+18:30:01 - BTC Waiting for market data
+18:30:02 - BTC Session ended, waiting for the next market
+18:30:10 - BTC PAPER UP closed | entry 0.73 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +81.0000 | held_to_resolution
+18:30:12 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132030-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT132030-30-UP-235173281
+18:30:25 - BTC New PAPER session (KXBTC15M-26OCT132045-45, shard 2)
+18:30:25 - BTC Requesting AI analytics with 14.58 minutes remaining
+18:30:25 - BTC Requesting META analysis and credit charge
+18:30:34 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2199 | tokens in/out/reasoning=6797/1053/902
+18:30:34 - BTC AI reason | Target is +0.020% above open early in candle. 1M returns are positive over 1-20 bars, price broke its prior 20-bar high and is closing at its high, while raw spot regression is strongly upward. 15M and 1H EMA/MACD/trend scores are bullish and cross-timeframe alignment is bullish_majority, favoring continuation despite high 1M RSI.
+18:30:34 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132045-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+18:30:35 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.69 — placing PAPER order
+18:30:35 - BTC PAPER position confirmed | fill 0.69 | size 300 | simulated entry fees 0.0000 (current ask)
+18:30:35 - BTC Holding PAPER UP to market resolution
+18:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+18:45:01 - BTC Waiting for market data
+18:45:02 - BTC Session ended, waiting for the next market
+18:45:04 - BTC PAPER UP closed | entry 0.69 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +93.0000 | held_to_resolution
+18:45:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132045-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT132045-45-UP-236064640
+18:45:18 - BTC New PAPER session (KXBTC15M-26OCT132100-00, shard 2)
+18:45:18 - BTC Requesting AI analytics with 14.70 minutes remaining
+18:45:18 - BTC Requesting META analysis and credit charge
+18:45:31 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2189 | tokens in/out/reasoning=6798/1466/1301
+18:45:31 - BTC AI reason | Current 83540.59 is just above the 83535.77 open with 883s left, but 1M 20-bar return is +0.241% with regression slope +0.0164%/bar and R2 0.813, EMA8 above EMA21/55, and 15M/1H trend scores are +5 with positive MACD histograms; cross-timeframe alignment is bullish_majority, outweighing the decelerating 3-bar pullback from 83608.
+18:45:31 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132100-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+18:45:32 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.61 — placing PAPER order
+18:45:32 - BTC PAPER position confirmed | fill 0.61 | size 300 | simulated entry fees 0.0000 (current ask)
+18:45:32 - BTC Holding PAPER UP to market resolution
+19:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+19:00:02 - BTC Session ended, waiting for the next market
+19:00:03 - BTC PAPER UP closed | entry 0.61 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -183.0000 | held_to_resolution
+19:00:04 - BTC Waiting for market data
+19:00:06 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132100-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT132100-00-UP-236961578
+19:00:13 - BTC New PAPER session (KXBTC15M-26OCT132115-15, shard 2)
+19:00:13 - BTC Requesting AI analytics with 14.78 minutes remaining
+19:00:13 - BTC Requesting META analysis and credit charge
+19:00:26 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2179 | tokens in/out/reasoning=6800/1187/1019
+19:00:26 - BTC AI reason | Current 83349.69 is just below 83350.27 open with 885s remaining. 1M is strongly bearish: regression-20 slope -0.0167%/bar R2 0.81, MACD histogram -17.0, RSI 38.3, EMA8 below EMA21, 20-bar return -0.298% and broke prior 20-bar low, outweighing bullish 15M/1H background for the remainder.
+19:00:26 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132115-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+19:00:27 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.46 — placing PAPER order
+19:00:27 - BTC PAPER position confirmed | fill 0.46 | size 300 | simulated entry fees 0.0000 (current ask)
+19:00:27 - BTC Holding PAPER DOWN to market resolution
+19:15:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+19:15:01 - BTC Waiting for market data
+19:15:02 - BTC Session ended, waiting for the next market
+19:15:08 - BTC PAPER DOWN closed | entry 0.46 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +162.0000 | held_to_resolution
+19:15:11 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132115-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT132115-15-DOWN-237857140
+19:15:29 - BTC New PAPER session (KXBTC15M-26OCT132130-30, shard 2)
+19:15:29 - BTC Requesting AI analytics with 14.52 minutes remaining
+19:15:29 - BTC Requesting META analysis and credit charge
+19:15:38 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2169 | tokens in/out/reasoning=6791/931/773
+19:15:38 - BTC AI reason | Current is 0.026% below the active open with most of the candle remaining. 1M evidence is bearish: EMA8 below EMA21/55, RSI 36.5, 20-bar return -0.233% and regression slope negative with R2 0.771. 15M MACD histogram is negative and cross-timeframe alignment is bearish, favoring continuation below the open despite nearby 1M support.
+19:15:38 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132130-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+19:15:38 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.60 — placing PAPER order
+19:15:38 - BTC PAPER position confirmed | fill 0.60 | size 300 | simulated entry fees 0.0000 (current ask)
+19:15:38 - BTC Holding PAPER DOWN to market resolution
+19:30:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+19:30:02 - BTC Session ended, waiting for the next market
+19:30:03 - BTC Waiting for market data
+19:30:12 - BTC PAPER DOWN closed | entry 0.60 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +120.0000 | held_to_resolution
+19:30:16 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132130-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT132130-30-DOWN-238768359
+19:30:30 - BTC New PAPER session (KXBTC15M-26OCT132145-45, shard 2)
+19:30:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+19:30:30 - BTC Requesting META analysis and credit charge
+19:30:38 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2159 | tokens in/out/reasoning=6789/842/675
+19:30:38 - BTC AI reason | Target is barely below open early (83250.10 vs 83250.78, 3.1% elapsed), but 1M is bearish (trend -3, RSI 43.1, price below EMA8/21/55, 3/5-bar returns negative) after rejection near 83319 and a sharp drop to 83240. 15M MACD histogram is negative, RSI 48.5, recent 15M returns are negative, and cross-timeframe alignment is bearish-majority, favoring close at or below open.
+19:30:38 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132145-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+19:30:39 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.60 — placing PAPER order
+19:30:39 - BTC PAPER position confirmed | fill 0.60 | size 300 | simulated entry fees 0.0000 (current ask)
+19:30:39 - BTC Holding PAPER DOWN to market resolution
+19:45:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+19:45:02 - BTC Session ended, waiting for the next market
+19:45:03 - BTC Waiting for market data
+19:45:08 - BTC PAPER DOWN closed | entry 0.60 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -180.0000 | held_to_resolution
+19:45:11 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132145-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT132145-45-DOWN-239668515
+19:45:19 - BTC New PAPER session (KXBTC15M-26OCT132200-00, shard 2)
+19:45:19 - BTC Requesting AI analytics with 14.68 minutes remaining
+19:45:19 - BTC Requesting META analysis and credit charge
+19:45:31 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2149 | tokens in/out/reasoning=6784/1122/962
+19:45:31 - BTC AI reason | Current is only -0.010% below the 15M open with 881s remaining, while 1M momentum is bullish: 10-bar regression slope +0.0169%/bar with R2 0.76, returns +0.102% over 5 bars, MACD histogram +11.94, RSI 54, and price rebounded from 83126 support toward 83260, favoring a close above open.
+19:45:31 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132200-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+19:45:32 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.44 — placing PAPER order
+19:45:32 - BTC PAPER position confirmed | fill 0.44 | size 300 | simulated entry fees 0.0000 (current ask)
+19:45:32 - BTC Holding PAPER UP to market resolution
+20:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+20:00:02 - BTC Session ended, waiting for the next market
+20:00:04 - BTC Waiting for market data
+20:00:08 - BTC PAPER UP closed | entry 0.44 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -132.0000 | held_to_resolution
+20:00:11 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132200-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT132200-00-UP-240561687
+20:00:17 - BTC New PAPER session (KXBTC15M-26OCT132215-15, shard 2)
+20:00:17 - BTC Requesting AI analytics with 14.72 minutes remaining
+20:00:18 - BTC Requesting META analysis and credit charge
+20:00:24 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2139 | tokens in/out/reasoning=6781/714/564
+20:00:24 - BTC AI reason | Current 83245.28 is slightly below the 83248.01 open with 98% remaining. 1M momentum is bearish: 10-bar regression -0.0150%/bar with R2 0.871, MACD histogram -4.18, RSI 47.4, up-ratio 0.3. 15M trend score -5 with negative MACD and price below EMAs, and cross-timeframe alignment is bearish_majority with weighted score -2.5.
+20:00:24 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132215-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+20:00:25 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.53 — placing PAPER order
+20:00:25 - BTC PAPER position confirmed | fill 0.53 | size 300 | simulated entry fees 0.0000 (current ask)
+20:00:25 - BTC Holding PAPER DOWN to market resolution
+20:15:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+20:15:00 - BTC Waiting for market data
+20:15:02 - BTC Session ended, waiting for the next market
+20:15:10 - BTC PAPER DOWN closed | entry 0.53 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -159.0000 | held_to_resolution
+20:15:11 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132215-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT132215-15-DOWN-241454781
+20:15:31 - BTC New PAPER session (KXBTC15M-26OCT132230-30, shard 2)
+20:15:31 - BTC Requesting AI analytics with 14.50 minutes remaining
+20:15:31 - BTC Requesting META analysis and credit charge
+20:15:38 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2129 | tokens in/out/reasoning=6783/724/612
+20:15:38 - BTC AI reason | Current 83267.11 is below active open 83276.15 early in candle; 1M and 15M trend scores -5 with negative MACD histograms, EMA8 below EMA21, and spot regression slope negative with high raw R-squared, aligned with bearish-majority cross-timeframe score -2.75.
+20:15:38 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132230-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+20:15:38 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.65 — placing PAPER order
+20:15:38 - BTC PAPER position confirmed | fill 0.65 | size 300 | simulated entry fees 0.0000 (current ask)
+20:15:38 - BTC Holding PAPER DOWN to market resolution
+20:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+20:30:02 - BTC Session ended, waiting for the next market
+20:30:03 - BTC Waiting for market data
+20:30:08 - BTC PAPER DOWN closed | entry 0.65 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +105.0000 | held_to_resolution
+20:30:08 - BTC New PAPER session (KXBTC15M-26OCT132245-45, shard 2)
+20:30:08 - BTC Requesting AI analytics with 14.87 minutes remaining
+20:30:08 - BTC Requesting META analysis and credit charge
+20:30:16 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2119 | tokens in/out/reasoning=6776/942/783
+20:30:16 - BTC AI reason | Current is 0.0053% below the 83251.01 open with 892s remaining; 1M trend score -5, RSI 42.6, MACD histogram -3.87 and 5-bar return -0.082%, raw spot 20-bar regression slope -0.000775% with R2 0.995, 15M trend -5 and cross-timeframe score -3 all favor DOWN.
+20:30:16 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132245-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+20:30:17 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.45 — placing PAPER order
+20:30:17 - BTC PAPER position confirmed | fill 0.45 | size 300 | simulated entry fees 0.0000 (current ask)
+20:30:17 - BTC Holding PAPER DOWN to market resolution
+20:30:18 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132230-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT132230-30-DOWN-242368187
+20:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+20:45:03 - BTC Session ended, waiting for the next market
+20:45:04 - BTC Waiting for market data
+20:45:09 - BTC PAPER DOWN closed | entry 0.45 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -135.0000 | held_to_resolution
+20:45:11 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132245-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT132245-45-DOWN-243247000
+20:45:26 - BTC New PAPER session (KXBTC15M-26OCT132300-00, shard 2)
+20:45:26 - BTC Requesting AI analytics with 14.57 minutes remaining
+20:45:26 - BTC Requesting META analysis and credit charge
+20:45:40 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2109 | tokens in/out/reasoning=6779/1048/882
+20:45:40 - BTC AI reason | Current is 0.0196% above open with 874s left, but 1M momentum is strongly up: regression-10 slope +0.0177%/bar with R2 0.835, MACD histogram +13.39, RSI 63, EMA8>EMA21, up-ratio 0.7 and breakout above prior 20 high; 1H is bullish and cross-timeframe alignment is bullish_majority, favoring continuation above open.
+20:45:41 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132300-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+20:45:42 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.62 — placing PAPER order
+20:45:42 - BTC PAPER position confirmed | fill 0.62 | size 300 | simulated entry fees 0.0000 (current ask)
+20:45:42 - BTC Holding PAPER UP to market resolution
+21:00:00 - BTC PAPER UP held to resolution | PnL settlement pending
+21:00:01 - BTC Session ended, waiting for the next market
+21:00:03 - BTC Waiting for market data
+21:00:04 - BTC PAPER UP closed | entry 0.62 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +114.0000 | held_to_resolution
+21:00:06 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132300-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT132300-00-UP-244171281
+21:00:07 - BTC New PAPER session (KXBTC15M-26OCT132315-15, shard 2)
+21:00:07 - BTC Requesting AI analytics with 14.88 minutes remaining
+21:00:08 - BTC Requesting META analysis and credit charge
+21:00:28 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2099 | tokens in/out/reasoning=6779/1368/1208
+21:00:28 - BTC AI reason | Current is barely above open (83566.12 vs 83563.57) with 893s left, but momentum is broadly bullish: 1M regression-20 slope +0.0209%/bar with R2 0.946, EMA8>EMA21, positive MACD histograms on 1M/15M/1H, 15M RSI 61.6, and cross-timeframe bullish majority with weighted score 4.5.
+21:00:28 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132315-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:00:29 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.51 — placing PAPER order
+21:00:29 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+21:00:29 - BTC Holding PAPER UP to market resolution
+21:15:00 - BTC PAPER UP held to resolution | PnL settlement pending
+21:15:02 - BTC Session ended, waiting for the next market
+21:15:03 - BTC Waiting for market data
+21:15:04 - BTC PAPER UP closed | entry 0.51 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +147.0000 | held_to_resolution
+21:15:06 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132315-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT132315-15-UP-245058515
+21:15:36 - BTC New PAPER session (KXBTC15M-26OCT132330-30, shard 2)
+21:15:36 - BTC Requesting AI analytics with 14.40 minutes remaining
+21:15:36 - BTC Requesting META analysis and credit charge
+21:15:53 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2089 | tokens in/out/reasoning=6783/1271/1098
+21:15:53 - BTC AI reason | Current 83638.29 is only 0.012% above the 83628.23 open with 86%+ of candle remaining, but 15M and 1H trends are bullish (score 5, EMA8>EMA21, positive MACD, RSI 63.9/57.8), 1M returns are positive over 1-20 bars, spot 20-bar regression is strongly upward, and price is at its range high with no upper wick, favoring continuation over reversal despite nearby resistance.
+21:15:53 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132330-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:15:54 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.54 — placing PAPER order
+21:15:54 - BTC PAPER position confirmed | fill 0.54 | size 300 | simulated entry fees 0.0000 (current ask)
+21:15:54 - BTC Holding PAPER UP to market resolution
+21:30:00 - BTC PAPER UP held to resolution | PnL settlement pending
+21:30:03 - BTC Session ended, waiting for the next market
+21:30:04 - BTC Waiting for market data
+21:30:08 - BTC Waiting for prior-session PnL settlement before starting the next session
+21:30:09 - BTC PAPER UP closed | entry 0.54 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +138.0000 | held_to_resolution
+21:30:09 - BTC New PAPER session (KXBTC15M-26OCT132345-45, shard 2)
+21:30:09 - BTC Requesting AI analytics with 14.85 minutes remaining
+21:30:10 - BTC Requesting META analysis and credit charge
+21:30:25 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2079 | tokens in/out/reasoning=6782/1108/938
+21:30:25 - BTC AI reason | Current price is only 0.0019% above the open with 891s remaining, but 15M and 1H trends are bullish (scores 5/5, EMA8>EMA21>EMA55, positive MACD, RSI 65.9/58.8), 15M regression-10 slope is positive with R2 0.819, recent 15M bars are consecutively green, and cross-timeframe alignment is bullish majority despite nearby resistance and stretched Bollinger z-scores.
+21:30:26 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132345-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+21:30:26 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.71 — placing PAPER order
+21:30:26 - BTC PAPER position confirmed | fill 0.71 | size 300 | simulated entry fees 0.0000 (current ask)
+21:30:26 - BTC Holding PAPER UP to market resolution
+21:30:26 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132330-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT132330-30-UP-245983843
+21:38:45 - BTC Waiting for market data
+21:45:02 - BTC PAPER UP held to resolution | PnL settlement pending
+21:45:02 - BTC Waiting for market data
+21:45:03 - BTC Session ended, waiting for the next market
+21:45:09 - BTC PAPER UP closed | entry 0.71 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +87.0000 | held_to_resolution
+21:45:10 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT132345-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT132345-45-UP-246856187
+21:45:21 - BTC New PAPER session (KXBTC15M-26OCT140000-00, shard 2)
+21:45:21 - BTC Requesting AI analytics with 14.65 minutes remaining
+21:45:21 - BTC Requesting META analysis and credit charge
+21:45:45 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2069 | tokens in/out/reasoning=6799/1866/1697
+21:45:45 - BTC AI reason | Current price is only 0.000455% above the open with 879s remaining, while 1M momentum is down: 10-bar return -0.133%, regression slope -0.0138%/bar with R2 0.73, MACD histogram -14.25, and price below EMA8/21 after rejection near 83868 resistance.
+21:45:45 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140000-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+21:45:46 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.51 — placing PAPER order
+21:45:46 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+21:45:46 - BTC Holding PAPER DOWN to market resolution
+22:00:00 - BTC PAPER DOWN held to resolution | PnL settlement pending
+22:00:03 - BTC Session ended, waiting for the next market
+22:00:04 - BTC PAPER DOWN closed | entry 0.51 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +147.0000 | held_to_resolution
+22:00:04 - BTC Waiting for market data
+22:00:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140000-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT140000-00-DOWN-247775468
+22:00:30 - BTC New PAPER session (KXBTC15M-26OCT140015-15, shard 2)
+22:00:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+22:00:30 - BTC Requesting META analysis and credit charge
+22:00:46 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2059 | tokens in/out/reasoning=6820/1209/1016
+22:00:46 - BTC AI reason | Target is early (3.2% elapsed) and only -0.0012% below open, but 1M pressure is strongly bearish: trend score -5, 10-bar slope -0.0143%/bar with R2 0.89, 10-bar return -0.133%, RSI 31.7, MACD histogram -15.76, EMA8 below EMA21, and a break of the prior 20-bar low. The prior 15M candle also closed at its low, favoring continuation over the bullish higher-timeframe backdrop.
+22:00:46 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140015-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+22:00:47 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.61 — placing PAPER order
+22:00:47 - BTC PAPER position confirmed | fill 0.61 | size 300 | simulated entry fees 0.0000 (current ask)
+22:00:47 - BTC Holding PAPER DOWN to market resolution
+22:15:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+22:15:01 - BTC Waiting for market data
+22:15:02 - BTC Session ended, waiting for the next market
+22:15:05 - BTC PAPER DOWN closed | entry 0.61 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -183.0000 | held_to_resolution
+22:15:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140015-15 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT140015-15-DOWN-248676484
+22:15:36 - BTC New PAPER session (KXBTC15M-26OCT140030-30, shard 2)
+22:15:36 - BTC Requesting AI analytics with 14.40 minutes remaining
+22:15:36 - BTC Requesting META analysis and credit charge
+22:15:52 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2049 | tokens in/out/reasoning=6795/1336/1176
+22:15:52 - BTC AI reason | Candle is only -0.010% below open with 866s remaining. 1M regression-10 slope is positive with R-squared 0.69, MACD histogram is positive and up-ratio is 0.6, while 15M and 1H are bullish with RSI 61/58, positive MACD and EMA8 above EMA21, favoring a move back above the open.
+22:15:52 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140030-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+22:15:53 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.31 — placing PAPER order
+22:15:53 - BTC PAPER position confirmed | fill 0.31 | size 300 | simulated entry fees 0.0000 (current ask)
+22:15:53 - BTC Holding PAPER UP to market resolution
+22:30:00 - BTC PAPER UP held to resolution | PnL settlement pending
+22:30:02 - BTC Session ended, waiting for the next market
+22:30:04 - BTC PAPER UP closed | entry 0.31 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +207.0000 | held_to_resolution
+22:30:04 - BTC Waiting for market data
+22:30:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140030-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT140030-30-UP-249582984
+22:30:28 - BTC New PAPER session (KXBTC15M-26OCT140045-45, shard 2)
+22:30:29 - BTC Requesting AI analytics with 14.53 minutes remaining
+22:30:29 - BTC Requesting META analysis and credit charge
+22:30:41 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2039 | tokens in/out/reasoning=6781/802/618
+22:30:41 - BTC AI reason | Current 83720.84 is only 0.0099% above the 83712.57 open with 97% of candle remaining, but 1M, 15M and 1H are all bullish (trend score 5): 1M returns +0.10% over 3 bars and +0.15% over 10, RSI 65.3, MACD histogram +13.35, EMA8 above EMA21, broke prior 20-bar high and is at range high; 15M RSI 63.9, positive MACD and rising regressions with 0.8 up-ratio, and 1H confirms, outweighing stretched Bollinger z-scores.
+22:30:41 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140045-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+22:30:42 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.67 — placing PAPER order
+22:30:42 - BTC PAPER position confirmed | fill 0.67 | size 300 | simulated entry fees 0.0000 (current ask)
+22:30:42 - BTC Holding PAPER UP to market resolution
+22:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+22:45:02 - BTC Session ended, waiting for the next market
+22:45:04 - BTC PAPER UP closed | entry 0.67 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -201.0000 | held_to_resolution
+22:45:04 - BTC Waiting for market data
+22:45:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140045-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT140045-45-UP-250471625
+22:45:14 - BTC New PAPER session (KXBTC15M-26OCT140100-00, shard 2)
+22:45:14 - BTC Requesting AI analytics with 14.77 minutes remaining
+22:45:14 - BTC Requesting META analysis and credit charge
+22:45:34 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2029 | tokens in/out/reasoning=6793/1100/929
+22:45:34 - BTC AI reason | Current price is barely below the active open (-0.0029%) with 886s remaining, but immediate pressure is bearish: 1M regression slope -0.0167%/bar with R2 0.976, RSI 41.0, MACD histogram -13.47, 10-bar return -0.123%, up-ratio 0.2, and both spot series negative. Higher timeframes are bullish, but recent 1M closes near lows show no reversal yet.
+22:45:34 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140100-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+22:45:34 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.43 — placing PAPER order
+22:45:34 - BTC PAPER position confirmed | fill 0.43 | size 300 | simulated entry fees 0.0000 (current ask)
+22:45:34 - BTC Holding PAPER DOWN to market resolution
+23:00:02 - BTC PAPER DOWN held to resolution | PnL settlement pending
+23:00:03 - BTC Session ended, waiting for the next market
+23:00:04 - BTC PAPER DOWN closed | entry 0.43 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -129.0000 | held_to_resolution
+23:00:04 - BTC Waiting for market data
+23:00:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140100-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT140100-00-DOWN-251364281
+23:00:14 - BTC New PAPER session (KXBTC15M-26OCT140115-15, shard 2)
+23:00:14 - BTC Requesting AI analytics with 14.77 minutes remaining
+23:00:14 - BTC Requesting META analysis and credit charge
+23:00:36 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=2019 | tokens in/out/reasoning=6793/1507/1345
+23:00:36 - BTC AI reason | Current 83669.39 is only 0.004% below open with 886s left, negligible vs 15M ATR 0.147%. 15M and 1H are bullish (trend 5, RSI 60.7/58.4, positive MACD histograms, EMA8>EMA21 and positive regression slopes), outweighing mixed 1M momentum and slightly negative spot returns.
+23:00:36 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140115-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+23:00:37 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.38 — placing PAPER order
+23:00:37 - BTC PAPER position confirmed | fill 0.38 | size 300 | simulated entry fees 0.0000 (current ask)
+23:00:37 - BTC Holding PAPER UP to market resolution
+23:15:01 - BTC PAPER UP held to resolution | PnL settlement pending
+23:15:01 - BTC Waiting for market data
+23:15:03 - BTC Session ended, waiting for the next market
+23:15:04 - BTC PAPER UP closed | entry 0.38 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -114.0000 | held_to_resolution
+23:15:06 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140115-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT140115-15-UP-252267000
+23:15:14 - BTC New PAPER session (KXBTC15M-26OCT140130-30, shard 2)
+23:15:14 - BTC Requesting AI analytics with 14.78 minutes remaining
+23:15:14 - BTC Requesting META analysis and credit charge
+23:15:30 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=2009 | tokens in/out/reasoning=6805/1210/1025
+23:15:31 - BTC AI reason | Current is essentially at open (-0.001%) with 887s left, so momentum dominates: 1M EMA8<21<55, RSI 35.7, MACD histogram -4.08, 20-bar slope -0.020%/bar with R2 0.84 and 20-bar return -0.262%; 15M trend bearish, MACD histogram -7.84, and prior 15M bar fell 83673 to 83458. The recent 3-bar bounce is countered by adjusted spot falling -3.07% over 15 bars.
+23:15:31 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140130-30 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+23:15:31 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.59 — placing PAPER order
+23:15:32 - BTC PAPER position confirmed | fill 0.59 | size 300 | simulated entry fees 0.0000 (current ask)
+23:15:32 - BTC Holding PAPER DOWN to market resolution
+23:30:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+23:30:01 - BTC Waiting for market data
+23:30:02 - BTC Session ended, waiting for the next market
+23:30:03 - BTC PAPER DOWN closed | entry 0.59 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -177.0000 | held_to_resolution
+23:30:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140130-30 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT140130-30-DOWN-253161015
+23:30:35 - BTC New PAPER session (KXBTC15M-26OCT140145-45, shard 2)
+23:30:35 - BTC Requesting AI analytics with 14.42 minutes remaining
+23:30:35 - BTC Requesting META analysis and credit charge
+23:30:47 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=1999 | tokens in/out/reasoning=6795/935/773
+23:30:47 - BTC AI reason | Current 83524 is above open 83508 with only 3.9% elapsed, but 1M momentum is bullish: regression slopes positive with R2 0.81/0.72, returns positive over 1-20 bars, MACD histogram +16.8, price broke the prior 20-bar high and closes at range high. 1H is bullish and cross-timeframe alignment is bullish_majority, outweighing the small current displacement and negative 15M MACD.
+23:30:47 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140145-45 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+23:30:47 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.64 — placing PAPER order
+23:30:47 - BTC PAPER position confirmed | fill 0.64 | size 300 | simulated entry fees 0.0000 (current ask)
+23:30:47 - BTC Holding PAPER UP to market resolution
+23:45:01 - BTC PAPER UP held to resolution | PnL settlement pending
+23:45:02 - BTC Waiting for prior-session PnL settlement before starting the next session
+23:45:03 - BTC PAPER UP closed | entry 0.64 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -192.0000 | held_to_resolution
+23:45:03 - BTC New PAPER session (KXBTC15M-26OCT140200-00, shard 2)
+23:45:04 - BTC Requesting AI analytics with 14.95 minutes remaining
+23:45:04 - BTC Requesting META analysis and credit charge
+23:45:14 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=1989 | tokens in/out/reasoning=6787/1104/903
+23:45:14 - BTC AI reason | Current is barely below the 83468.70 open (-0.0006%) with 896s remaining. 1M 3/5-bar returns are negative, RSI is 47.3, price is below EMA8/21/55, 15M regression-10 slope is -0.0367%/bar with R2 0.72, MACD histogram is -19.8 and trend score -3, while raw spot regression-20 is -0.00038%/bar with R2 0.99. This outweighs the bullish 1H regime and small positive 1M MACD histogram.
+23:45:14 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140200-00 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+23:45:15 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.50 — placing PAPER order
+23:45:15 - BTC PAPER position confirmed | fill 0.50 | size 300 | simulated entry fees 0.0000 (current ask)
+23:45:15 - BTC Holding PAPER DOWN to market resolution
+23:45:15 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140145-45 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT140145-45-UP-254077312
+00:00:02 - BTC PAPER DOWN held to resolution | PnL settlement pending
+00:00:02 - BTC Waiting for market data
+00:00:03 - BTC Session ended, waiting for the next market
+00:00:08 - BTC PAPER DOWN closed | entry 0.50 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +150.0000 | held_to_resolution
+00:00:10 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140200-00 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT140200-00-DOWN-254945062
+00:00:26 - BTC New PAPER session (KXBTC15M-26OCT140215-15, shard 2)
+00:00:26 - BTC Requesting AI analytics with 14.58 minutes remaining
+00:00:26 - BTC Requesting META analysis and credit charge
+00:00:51 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=1979 | tokens in/out/reasoning=6768/2033/1856
+00:00:51 - BTC AI reason | Current 83383.43 is above the 83376.41 open, with the last five closed 1M bars rebounding from 83345 support to 83376 and spot 1- and 5-bar returns positive. The 1H and 6H regimes are bullish, supporting pullback recovery despite bearish shorter 15M momentum.
+00:00:51 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140215-15 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+00:00:57 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.54 — placing PAPER order
+00:00:58 - BTC PAPER position confirmed | fill 0.54 | size 300 | simulated entry fees 0.0000 (current ask)
+00:00:58 - BTC Holding PAPER UP to market resolution
+00:15:00 - BTC PAPER UP held to resolution | PnL settlement pending
+00:15:03 - BTC Session ended, waiting for the next market
+00:15:04 - BTC Waiting for market data
+00:15:05 - BTC PAPER UP closed | entry 0.54 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +138.0000 | held_to_resolution
+00:15:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140215-15 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=UP | kalshi_result=yes | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT140215-15-UP-255886625
+00:15:24 - BTC New PAPER session (KXBTC15M-26OCT140230-30, shard 2)
+00:15:25 - BTC Requesting AI analytics with 14.60 minutes remaining
+00:15:25 - BTC Requesting META analysis and credit charge
+00:15:37 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=1969 | tokens in/out/reasoning=6770/1138/966
+00:15:37 - BTC AI reason | Current 83497.13 is only 0.008% above the 83490.18 open with 875s left, but 1M returns are positive over 3-20 bars, RSI 64.6, MACD histogram +21.1, regression-10 slope is positive with R2 0.70, up-ratio is 0.8 and price broke the prior 20-bar high; 1H and 6H regimes are also bullish, favoring continuation.
+00:15:37 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140230-30 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+00:15:38 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.51 — placing PAPER order
+00:15:38 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+00:15:38 - BTC Holding PAPER UP to market resolution
+00:30:01 - BTC PAPER UP held to resolution | PnL settlement pending
+00:30:01 - BTC Waiting for market data
+00:30:02 - BTC Session ended, waiting for the next market
+00:30:06 - BTC PAPER UP closed | entry 0.51 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -153.0000 | held_to_resolution
+00:30:10 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140230-30 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT140230-30-UP-256767875
+00:30:24 - BTC New PAPER session (KXBTC15M-26OCT140245-45, shard 2)
+00:30:25 - BTC Requesting AI analytics with 14.60 minutes remaining
+00:30:25 - BTC Requesting META analysis and credit charge
+00:30:38 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=1959 | tokens in/out/reasoning=6805/1268/1101
+00:30:38 - BTC AI reason | Current 83405.10 is just below the 83406.60 open with 876s remaining, while 1M and 15M trend scores are both -5, MACD histograms are negative, EMA8 is below EMA21, 1M 10-bar regression is negative with R2 0.55, and spot returns are negative over 1, 5, and 15 bars; mixed bullish 1H/6H context does not outweigh this immediate bearish pressure.
+00:30:38 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140245-45 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+00:30:38 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.51 — placing PAPER order
+00:30:38 - BTC PAPER position confirmed | fill 0.51 | size 300 | simulated entry fees 0.0000 (current ask)
+00:30:38 - BTC Holding PAPER DOWN to market resolution
+00:45:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+00:45:01 - BTC Waiting for market data
+00:45:03 - BTC Session ended, waiting for the next market
+00:45:04 - BTC PAPER DOWN closed | entry 0.51 | exit fill 1.00 | size 300 | simulated fees 0.0000 | net PnL +147.0000 | held_to_resolution
+00:45:05 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140245-45 | predicted_direction=DOWN | trade_direction=DOWN | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MATCH | order_id=PAPER-KXBTC15M-26OCT140245-45-DOWN-257668250
+00:45:13 - BTC New PAPER session (KXBTC15M-26OCT140300-00, shard 2)
+00:45:14 - BTC Requesting AI analytics with 14.78 minutes remaining
+00:45:14 - BTC Requesting META analysis and credit charge
+00:45:26 - BTC META Muse Wonder [xHigh] decision | UP | credits charged | remaining credit=1949 | tokens in/out/reasoning=6801/1042/891
+00:45:26 - BTC AI reason | Current is only slightly above the 15M open with 887s remaining, but 1M momentum has rebounded strongly: 3- and 5-bar returns positive, RSI 51.9, MACD histogram positive, up-ratio 0.7, and recent bars closing near highs. 1H and 6H regimes are bullish, outweighing the bearish 15M trend for continuation above the open.
+00:45:26 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140300-00 | predicted_direction=UP | obey_model=YES | planned_trade_direction=UP
+00:45:28 - BTC META Muse Wonder [xHigh] chose UP | Obey_model=YES | trade side=UP | current ask 0.54 — placing PAPER order
+00:45:28 - BTC PAPER position confirmed | fill 0.54 | size 300 | simulated entry fees 0.0000 (current ask)
+00:45:28 - BTC Holding PAPER UP to market resolution
+01:00:01 - BTC PAPER UP held to resolution | PnL settlement pending
+01:00:01 - BTC Waiting for market data
+01:00:03 - BTC Session ended, waiting for the next market
+01:00:09 - BTC PAPER UP closed | entry 0.54 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -162.0000 | held_to_resolution
+01:00:10 - MODEL OUTCOME AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140300-00 | predicted_direction=UP | trade_direction=UP | trade_status=PAPER_ORDER_PLACED | market_outcome=DOWN | kalshi_result=no | prediction_result=MISS | order_id=PAPER-KXBTC15M-26OCT140300-00-UP-258557437
+01:00:30 - BTC New PAPER session (KXBTC15M-26OCT140315-15, shard 2)
+01:00:30 - BTC Requesting AI analytics with 14.50 minutes remaining
+01:00:30 - BTC Requesting META analysis and credit charge
+01:00:45 - BTC META Muse Wonder [xHigh] decision | DOWN | credits charged | remaining credit=1939 | tokens in/out/reasoning=6794/1159/964
+01:00:45 - BTC AI reason | Current 83349.16 is 0.017% below the 83363.67 open with 868s remaining; 15M trend score -5, MACD histogram -35.1, 10-bar regression -0.030%/bar with R2 0.65, RSI 44.7 and EMA8 below EMA21. 1M is also bearish with RSI 43.5 and price below EMAs, and cross-timeframe alignment is bearish majority with weighted score -2, outweighing mixed 1M MACD and bullish 6H context.
+01:00:45 - MODEL PREDICTION AUDIT | provider=META | model=meta/muse-wonder | asset=BTC | market=KXBTC15M-26OCT140315-15 | predicted_direction=DOWN | obey_model=YES | planned_trade_direction=DOWN
+01:00:47 - BTC META Muse Wonder [xHigh] chose DOWN | Obey_model=YES | trade side=DOWN | current ask 0.66 — placing PAPER order
+01:00:47 - BTC PAPER position confirmed | fill 0.66 | size 300 | simulated entry fees 0.0000 (current ask)
+01:00:47 - BTC Holding PAPER DOWN to market resolution
+01:15:01 - BTC PAPER DOWN held to resolution | PnL settlement pending
+01:15:01 - BTC Waiting for market data
+01:15:02 - BTC Session ended, waiting for the next market
+01:15:04 - BTC PAPER DOWN closed | entry 0.66 | exit fill 0.00 | size 300 | simulated fees 0.0000 | net PnL -198.0000 | held_to_resolution
+01:15:04 - Agent daily PnL limit reached | Max_daily_Loss=-1000.0000 | agent PnL=-1074.0000 | no active positions | stopping script
